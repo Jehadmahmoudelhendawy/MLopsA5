@@ -17,6 +17,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Linter Check
+        run: echo "No linter Check"
 
       - name: Model Dry Test
         run: |

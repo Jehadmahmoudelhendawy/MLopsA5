@@ -2,8 +2,7 @@ name: ML Model CI
 
 on:
   push:
-    branches-ignore:
-      - main
+    branches: main
   pull_request:
 
 jobs:
